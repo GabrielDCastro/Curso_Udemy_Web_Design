@@ -16,6 +16,19 @@
       .navbar{
         
       }
+      #div_esquerda{
+        width: 30%;
+        float: left;
+      }
+      #div_direita{
+        width: 70%;
+        height: 500px;
+        float: right;
+        background-color: black;
+      }
+      #menu_lateral:hover{
+        color:rgb(49, 208, 147) !important;
+      }
     </style>
 
     <!-- Bootstrap CSS -->
@@ -55,12 +68,31 @@
             <a class="nav-link" href="#">Contato</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="produtos.html">Produtos</a>
+            <a class="nav-link" href="#">Produtos</a>
           </li>
         </ul>
         
       </div>
     </nav>
+
+    <div id="div_esquerda" class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Busca por categorias
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <button id="menu_lateral" class="dropdown-item" type="button">Software</button>
+        <button id="menu_lateral" class="dropdown-item" type="button">Hardware</button>
+        <button id="menu_lateral" class="dropdown-item" type="button">Agricultura</button>
+        <button id="menu_lateral" class="dropdown-item" type="button">Saúde</button>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="div_direita"></div>
+  
 
     <footer>
       <!-- Optional JavaScript -->
