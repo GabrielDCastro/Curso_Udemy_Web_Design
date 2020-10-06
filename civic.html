@@ -16,6 +16,24 @@
       .navbar{
         
       }
+    }
+      #div_esquerda{
+        width: 25%;
+        float: left;
+      }
+      
+      #div_direita{
+        width: 75%;
+        height: 550px;
+        float: right;
+        background-color:whitesmoke;
+      }
+      #menu_lateral:hover{
+        color:rgb(49, 208, 147) !important;
+      }
+      footer{
+        clear: both;
+      }
     </style>
 
     <!-- Bootstrap CSS -->
@@ -65,6 +83,37 @@
       </div>
     </nav>
 
+
+    <div id="div_esquerda" class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Busca por categorias
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <button id="menu_lateral" class="dropdown-item" type="button">Software</button>
+          <button id="menu_lateral" class="dropdown-item" type="button">Hardware</button>
+          <button id="menu_lateral" class="dropdown-item" type="button">Agricultura</button>
+          <button id="menu_lateral" class="dropdown-item" type="button">Saúde</button>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+
+
+      <div id="div_direita" class="container">
+        <div class="row">
+          <div class="col" style="padding: 25px;">
+            <div class="card">
+              <img src="5.jpg" width="150">
+              <div class="card-body">
+                <h5 class="card-tittle">Anúncio</h5>
+                <p class="card-text">só um anúncio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
     <footer>
       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
