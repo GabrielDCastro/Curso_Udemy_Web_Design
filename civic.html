@@ -16,15 +16,15 @@
       .navbar{
         
       }
-    }
       #div_esquerda{
+        margin-top: 95px;
         width: 25%;
         float: left;
       }
-      
       #div_direita{
+        margin-top: 95px;
         width: 75%;
-        height: 550px;
+        height: 700px;
         float: right;
         background-color:whitesmoke;
       }
@@ -41,10 +41,10 @@
     <title>Meu site</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light ">
       <a id="sinfor" class="navbar-brand"  href="index.html"> <img src="../sinfor-logo.png" width="100" height="70"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
+
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -73,9 +73,9 @@
             <a class="nav-link" href="#">Contato</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="produtos.html">Produtos</a>
+            <a class="nav-link" href="#">Produtos</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ml-md-5">
             <a class="nav-link" href="cadastro.html">Cadastrar empresa</a>
           </li>
         </ul>
@@ -83,24 +83,23 @@
       </div>
     </nav>
 
-
-    <div id="div_esquerda" class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Busca por categorias
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <button id="menu_lateral" class="dropdown-item" type="button">Software</button>
-          <button id="menu_lateral" class="dropdown-item" type="button">Hardware</button>
-          <button id="menu_lateral" class="dropdown-item" type="button">Agricultura</button>
-          <button id="menu_lateral" class="dropdown-item" type="button">Saúde</button>
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
-        </div>
+    <div id="div_esquerda" class="dropdown fixed-top">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Busca por categorias
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <button id="menu_lateral" class="dropdown-item" type="button">Software</button>
+        <button id="menu_lateral" class="dropdown-item" type="button">Hardware</button>
+        <button id="menu_lateral" class="dropdown-item" type="button">Agricultura</button>
+        <button id="menu_lateral" class="dropdown-item" type="button">Saúde</button>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
       </div>
+    </div>
 
-
+    
       <div id="div_direita" class="container">
         <div class="row">
           <div class="col" style="padding: 25px;">
