@@ -57,7 +57,7 @@
           <li class="nav-item">
             <a class="nav-link" href="produtos.html">Produtos</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ml-md-5">
             <a class="nav-link" href="cadastro.html">Cadastrar empresa</a>
           </li>
         </ul> 
@@ -66,27 +66,86 @@
 
     <form>
       <div class="form-row">
-        <div class="form-group row col-md-8">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Código Sinfor</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputEmail3" placeholder="Código Sinfor">
-          </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Código Sinfor</label>
+          <input type="number" class="form-control" id="inputEmail4" placeholder="Código Sinfor">
         </div>
-        <div class="form-group row col-md-4">
-          <label for="inputPassword3" class="col-sm-2 col-form-label">CNPJ</label>
-          <div class="col-sm-10">
-            <input type="number" class="form-control" id="inputPassword3" placeholder="CNPJ">
-          </div>
-        </div>
-        <div class="form-group row col-md-8">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Razão Social</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputEmail3" placeholder="Razão social">
-          </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">CNPJ</label>
+          <input type="number" class="form-control" id="inputPassword4" placeholder="CNPJ">
         </div>
       </div>
-     
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="form-group">
+        <label for="inputAddress">Razão Social</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Razão Social">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Endereço">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="inputCity">Bairro</label>
+          <input type="text" class="form-control" id="Bairro" placeholder="Bairro">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputCity">Cidade</label>
+          <input type="text" class="form-control" id="Cidade" placeholder="Cidade">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputZip">CEP</label>
+          <input type="number" class="form-control" id="CEP" placeholder="CEP">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="inputCity">Nome para Contato</label>
+          <input type="text" class="form-control" id="contato" placeholder="Nome para contato">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputCity">Função</label>
+          <input type="text" class="form-control" id="Cidade" placeholder="Função">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputZip">Telefone</label>
+          <input type="tel" class="form-control" id="CEP" placeholder="Telefone">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="inputCity">Segundo Nome para Contato</label>
+          <input type="text" class="form-control" id="contato" placeholder="Nome para contato">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputCity">Função</label>
+          <input type="text" class="form-control" id="Cidade" placeholder="Função">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputZip">Telefone</label>
+          <input type="tel" class="form-control" id="CEP" placeholder="Telefone">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputAddress">Email para Contato</label>
+          <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label style="visibility: hidden">a</label>
+          <input type="email" class="form-control" id="inputAddress" placeholder="Segundo Email">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputAddress">Redes Sociais</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Facebook">
+        </div>
+        <div class="form-group col-md-6">
+          <label style="visibility: hidden">a</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Outro">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
 
     
